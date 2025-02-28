@@ -62,18 +62,19 @@ body #arrow {
 }
 .h_bg {
   width: 100%;
-  background-color: #fff;
+  background-color: #fafafa;
 }
 .h_con {
   width: 100%;
   max-width: 990px;
-  height: 118px;
+  height: 125px;
   margin: 0 auto;
   overflow: hidden;
 }
 .h_r {
   width: 250px;
   float: right;
+  margin-top: -35px;
 }
 .community {
   padding: 12px 15px 0 0;
@@ -85,23 +86,11 @@ body #arrow {
   margin-left: 3px;
 }
 .h_l {
-  width: 420px;
-  float: left;
-  padding: 22px 0 0 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.logo {
-  width: 226px;
-  float: left;
-  position: relative;
-}
-.logo h1 {
-  position: absolute;
-  text-indent: -9999px;
-}
-.logo2 {
-  float: left;
-  margin: 22px 0 0 10px;
-}
+
 .top_search {
   width: 210px;
   float: right;
@@ -122,14 +111,11 @@ body #arrow {
   vertical-align: middle;
 }
 .nav {
-  width: calc(100% - 210px);
-  max-width: 790px;
-  float: left;
-  margin-top: 5px;
+  display: flex;
 }
 .nav li {
-  float: left;
-  margin: 0 2px;
+  /* float: right;
+  margin: 0 2px; */
 }
 .nav li:last-child {
   margin-right: 0;
@@ -543,7 +529,18 @@ body #arrow {
     padding: 7px 10px 0 10px;
   }
 }
-@media screen and (max-width: 830px) {
+
+@media screen and (max-width: 910px) {
+  .nav li a {
+    height: 30px;
+    padding: 5px 5px 0 5px;
+    display: block;
+    color: #000;
+    font-size: clamp(10px, 12px,15px);
+    font-weight: 400;
+  }}
+@media screen and (max-width: 750px) {
+ 
   body #arrow {
     display: none !important;
   }
@@ -553,7 +550,7 @@ body #arrow {
     display: none;
   }
   .h_con {
-    height: 80px;
+    height: 100px;
   }
   .nav-link {
     display: block;
@@ -561,13 +558,20 @@ body #arrow {
   .footnav_con {
     display: none;
   }
+  .logo {
+    width: 100px;
+    padding-inline: 5px;
+  }
+  .logo img {
+    width: 90%;
+  }
 }
 @media screen and (max-width: 540px) {
   .logo {
-    width: 200px;
+    width: 100px;
   }
   .logo img {
-    width: 100%;
+    width: 80%;
   }
   .logo2 {
     display: none;
