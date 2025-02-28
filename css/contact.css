@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+.inquiry {
+  width: calc(60% - 20px);
+  margin-left: 20px;
+  float: right;
+}
+.cont_title {
+  margin-bottom: 10px;
+  padding: 3px 10px 3px 15px;
+  background: #091c24;
+}
+.cont_title h4 {
+  width: 100%;
+  background: url(../assets/images/icon008.gif) no-repeat right 9px;
+  font-size: 20px;
+  color: #00f6ff;
+  text-align: left;
+}
+
+.company {
+  width: 40%;
+  float: left;
+  text-align: left;
+}
+.com_area {
+  margin-bottom: 25px;
+}
+.com_area:last-child {
+  margin-bottom: 0;
+}
+.com_title {
+  margin-bottom: 5px;
+  padding: 10px 0 0 15px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.com_list {
+  padding: 6px 10px 6px 10px;
+  background: #1d272c;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.com_list li {
+  padding: 7px 0px 7px 20px;
+  background: url(../assets/images/icon009.gif) no-repeat 5px 15px;
+  border-bottom: #495c66 dashed 1px;
+  color: #afafaf;
+}
+.com_list li:last-child {
+  border-bottom: none;
+}
+.com_list li a {
+  color: #afafaf;
+}
+.com_list li a:hover {
+  color: #fc3;
+  text-decoration: underline;
+}
+
+.map-area {
+  width: 100%;
+  height: 0;
+  padding: 0 0 35% 0;
+  position: relative;
+  overflow: hidden;
+}
+.map {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.contact_img {
+  width: 100%;
+  max-width: 566px;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+.global {
+  width: 100%;
+  max-width: 350px;
+  position: relative;
+  text-align: left;
+  z-index: 2;
+}
+.global_area {
+  margin-bottom: 25px;
+}
+.global_area:last-child {
+  margin-bottom: 0;
+}
+.global_title {
+  margin-bottom: 5px;
+  padding-left: 30px;
+  background: url(../assets/images/icon010.png) no-repeat 13px 13px;
+  font-size: 22px;
+  color: #373737;
+}
+.global_list {
+  padding: 6px 10px 6px 10px;
+  background: #e7e7e7;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.global_list li {
+  padding: 4px 0px 4px 20px;
+  background: url(../assets/images/icon011.png) no-repeat 5px 12px;
+  border-bottom: #b3b3b3 dashed 1px;
+  color: #454545;
+}
+.global_list li:last-child {
+  border-bottom: none;
+}
+.global_list li a {
+  color: #454545;
+}
+.global_list li a:hover {
+  color: #0ab6e2;
+}
+
+@media screen and (max-width: 1440px) {
+  .map-area {
+    padding-bottom: 40%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .map-area {
+    padding-bottom: 45%;
+  }
+}
+@media screen and (max-width: 990px) {
+  .contact_img {
+    display: none;
+  }
+  .global {
+    max-width: 100%;
+  }
+  .global_area {
+    width: calc(50% - 30px);
+    margin: 0 14px 25px 14px;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+@media screen and (max-width: 850px) {
+  .map-area {
+    padding-bottom: 50%;
+  }
+}
+@media screen and (max-width: 680px) {
+  .inquiry {
+    width: 100%;
+    margin-left: 0;
+  }
+  .company {
+    width: 100%;
+  }
+  .map-area {
+    padding-bottom: 60%;
+  }
+  .global_area {
+    width: 100%;
+    margin: 0 0 25px 0;
+  }
+}
+@media screen and (max-width: 530px) {
+  .map-area {
+    padding-bottom: 80%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .map-area {
+    padding-bottom: 90%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .map-area {
+    padding-bottom: 100%;
+  }
+}

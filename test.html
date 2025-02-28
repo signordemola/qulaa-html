@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Catalog</title>
+    <style>
+      /* Navigation Styles */
+      .type_nav {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        background: #f5f5f5;
+        padding: 15px;
+        border-radius: 8px;
+      }
+
+      .type_nav li {
+        margin: 0;
+      }
+
+      .type_nav a {
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #333;
+        background: #fff;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+        border: 1px solid #ddd;
+        cursor: pointer;
+      }
+
+      .type_nav a:hover {
+        background: #007bff;
+        color: white;
+        border-color: #007bff;
+      }
+
+      .type_nav a.cate_on {
+        background: #007bff;
+        color: white;
+        border-color: #007bff;
+      }
+
+      /* Product Grid Styles */
+      .pro_list_area {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 25px;
+        padding: 20px;
+      }
+
+      .pro_list {
+        border: 1px solid #eee;
+        border-radius: 8px;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+      }
+
+      .pro_list:hover {
+        transform: translateY(-5px);
+      }
+
+      .pro_img {
+        position: relative;
+        overflow: hidden;
+      }
+
+      .pro_img img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .cover {
+        position: absolute;
+        bottom: -100%;
+        left: 0;
+        right: 0;
+        background: rgba(0, 123, 255, 0.9);
+        color: white;
+        padding: 15px;
+        transition: all 0.3s ease;
+      }
+
+      .pro_list:hover .cover {
+        bottom: 0;
+      }
+
+      .pro_title {
+        padding: 15px;
+        text-align: center;
+        background: #f8f9fa;
+      }
+
+      .pro_title a {
+        color: #333;
+        text-decoration: none;
+        font-weight: 500;
+      }
+
+      /* Hidden products */
+      .pro_list.hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+
+    <img src="./assets/images/new-logo.png" alt="">
+    <ul class="type_nav">
+      <!-- Tabs with data-category attributes -->
+      <li><a data-category="all" class="cate_on">ALL</a></li>
+      <li><a data-category="cycloidal">Cycloidal Gear Drive</a></li>
+      <li><a data-category="planetary">Planetary Precision Gearbox</a></li>
+      <li><a data-category="helical-motor">Helical Gear Motor Reducer</a></li>
+      <li><a data-category="bevel">Industrial Helical Bevel Gearbox</a></li>
+      <li><a data-category="ac-motors">AC Induction Motors</a></li>
+      <li><a data-category="planetary-motor">Planetary Gear Motor Drive</a></li>
+      <li><a data-category="nmrv">NMRV Worm Gear Reducers Gearbox</a></li>
+      <li><a data-category="disco">Disco Speed Variator</a></li>
+      <li><a data-category="piv">PIV Chain Variable Speed Drive</a></li>
+      <li><a data-category="agitator">Agitator</a></li>
+      <li><a data-category="worm">Worm Gear Speed Reducer</a></li>
+      <li><a data-category="rv">RV Precision Reduction Gear</a></li>
+      <li><a data-category="belt">Belt Stepless Variable Speed Drive</a></li>
+      <li><a data-category="sew">SEW Type Gear Reducer</a></li>
+      <li><a data-category="spiral-bevel">Spiral Bevel Gear Box</a></li>
+      <li><a data-category="screw-actuators">Spiral Screw Rod Actuators</a></li>
+      <li>
+        <a data-category="rotating-platform"
+          >Precision Hollow Rotating Platform</a
+        >
+      </li>
+    </ul>
+
+    <div class="pro_list_area">
+      <!-- Products with data-category attributes -->
+      <div class="pro_list" data-category="nmrv">
+        <!-- NMRV product content -->
+         
+      </div>
+
+      <div class="pro_list" data-category="nmrv helical-motor">
+        <!-- NMRV+PC product content -->
+         <div>NMRV+PC</div>
+      </div>
+
+      <div class="pro_list" data-category="piv">
+        <!-- PIV Chain product content -->
+      </div>
+
+      <div class="pro_list" data-category="sew">
+        <!-- F Series product content -->
+      </div>
+
+      <div class="pro_list" data-category="rotating-platform">
+        <!-- Rotating Platform content -->
+      </div>
+
+      <div class="pro_list" data-category="nmrv">
+        <!-- NMRV Reducer content -->
+      </div>
+
+      <div class="pro_list" data-category="spiral-bevel">
+        <!-- Spiral Bevel content -->
+      </div>
+
+      <div class="pro_list" data-category="helical-motor">
+        <!-- GH Series content -->
+      </div>
+    </div>
+
+    <script>
+      document.querySelectorAll(".type_nav a").forEach((tab) => {
+        tab.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          // Remove active class from all tabs
+          document
+            .querySelectorAll(".type_nav a")
+            .forEach((t) => t.classList.remove("cate_on"));
+          this.classList.add("cate_on");
+
+          // Get selected category
+          const category = this.dataset.category;
+
+          // Filter products
+          document.querySelectorAll(".pro_list").forEach((product) => {
+            if (category === "all") {
+              product.classList.remove("hidden");
+            } else {
+              const productCategories = product.dataset.category.split(" ");
+              product.classList.toggle(
+                "hidden",
+                !productCategories.includes(category)
+              );
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
