@@ -1995,10 +1995,22 @@ function renderPostDetails(post) {
       </div>
     `;
 
-    document.title = post.title
-    breadcrumbTitle.textContent = post.title
+  document.title = post.title;
+  breadcrumbTitle.textContent = post.title;
 }
 // Fetch and render the post details (only on news_show.html)
 if (window.location.pathname.includes("news_show.html")) {
   fetchPostDetails(titleParam);
 }
+
+windows.onload = () => {
+  const nav = document.querySelector(".mm-listview");
+  const hamburger = document.querySelector(".nav-link");
+
+  hamburger.addEventListener("click", () => {
+    nav.classList.toggle("active");
+    hamburger.classList.toggle("open");
+    console.log("clicked");
+    console.log(nav);
+  });
+};
