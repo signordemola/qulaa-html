@@ -49,63 +49,6 @@
     </style>
   </head>
   <body>
-    <!-- mobile nav -->
-    <nav id="nav2" class="mm-menu mm-offcanvas mm-hasnavbar-top-1">
-      <div
-        class="mm-navbar mm-navbar-top mm-navbar-top-1 mm-navbar-size-1 mm-hasbtns"
-      >
-        <a class="mm-prev mm-btn mm-hidden"></a><a class="mm-title">Menu</a
-        ><a class="mm-close mm-btn" href="#mm-0"></a>
-      </div>
-      <div class="mm-panel mm-opened mm-current" id="mm-1">
-        <div class="mm-navbar"><a class="mm-title">Menu</a></div>
-        <ul class="nav2 mm-listview">
-          <li class="community2">
-            <a href="#" title="linkedin" target="_blank"
-              ><img src="assets/images/icon001.png" alt="linkedin"
-            /></a>
-            <a href="#" title="Google+" target="_blank"
-              ><img src="assets/images/icon002.png" alt="google+"
-            /></a>
-            <a href="#" title="Twiter" target="_blank"
-              ><img src="assets/images/icon003.png" alt="twiter"
-            /></a>
-            <a href="#" title="Facebook" target="_blank"
-              ><img src="assets/images/icon004.png" alt="facebook"
-            /></a>
-            <a href="skype:Qulaa?chat" title="Skype"
-              ><img src="assets/images/icon005.png" alt="skype"
-            /></a>
-          </li>
-          <li class="language">
-            <a href="index.html" title="english" hreflang="en"
-              ><img src="assets/images/link_eng01.png" alt="english"
-            /></a>
-            <a href="#" title="tw" hreflang="zh"
-              ><img src="assets/images/link_tw11.png" alt="tw"
-            /></a>
-          </li>
-          <li><a href="about.html" title="About Us">About Us</a></li>
-          <li>
-            <a href="products_category.html" title="Products">Products</a>
-          </li>
-          <li><a href="support.html" title="Support">Support</a></li>
-          <li>
-            <a href="news.html" title="News &amp; Event">News &amp; Event</a>
-          </li>
-          <li><a href="faq.html" title="FAQ">FAQ</a></li>
-          <li><a href="contact.html" title="Contact Us">Contact Us</a></li>
-          <li><a href="sitemap.html" title="Sitemap">Sitemap</a></li>
-          <li class="nav2-search">
-            <form method="post" action="#" name="push_ok" class="nav2-sh">
-              <input name="search" id="search" type="text" class="sh01" />
-              <input name="enter" type="submit" class="sh_btn" value="送出" />
-            </form>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
     <!-- content -->
     <div id="mm-0" class="mm-page mm-slideout">
       <div id="arrow" style="display: none">
@@ -118,6 +61,7 @@
       <div id="header" style="position: fixed; top: 0px">
         <div class="h_bg">
           <div class="h_con">
+            <a class="nav-link"><span></span></a>
             <div class="h_l">
               <div class="logo">
                 <a
@@ -206,6 +150,27 @@
             </div>
           </div>
         </div>
+
+        <!-- mobile nav -->
+        <ul class="mm-listview">
+          <li><a href="about.html" title="About Us">About Us</a></li>
+          <li>
+            <a href="products_category.html" title="Products">Products</a>
+          </li>
+          <li><a href="support.html" title="Support">Support</a></li>
+          <li>
+            <a href="news.html" title="News &amp; Event">News &amp; Event</a>
+          </li>
+          <li><a href="faq.html" title="FAQ">FAQ</a></li>
+          <li><a href="contact.html" title="Contact Us">Contact Us</a></li>
+          <li><a href="sitemap.html" title="Sitemap">Sitemap</a></li>
+          <li class="nav2-search">
+            <form name="push_ok" class="nav2-sh">
+              <input name="search" id="search" type="text" class="sh01" />
+              <input name="enter" type="submit" class="sh_btn" value="送出" />
+            </form>
+          </li>
+        </ul>
       </div>
       <div class="banner_bg">
         <ul
@@ -1094,10 +1059,7 @@
                   typeof="v:Products"
                   style="margin-right: 7px"
                 >
-                  <a
-                    title="Spiral Bevel Gearbox"
-                    rel="v:url"
-                    property="v:Image"
+                  <a title="Spiral Bevel Gearbox" rel="v:url" property="v:Image"
                     ><img
                       src="assets/images/Sprial-Bevel-Gearbox-GearBox.png"
                       alt="Spiral gear,Bevel Gear,GearBox"

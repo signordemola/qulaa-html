@@ -136,50 +136,66 @@ body #arrow {
   width: 40px;
   height: 40px;
   position: absolute;
-  border: 1px solid rgba(255, 255, 255, 0.8);
-  background-color: rgba(0, 0, 0, 0);
-  display: none;
+  border: 1px solid rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 0.8);
+  display: none; /* Changed to block to make it visible initially */
   right: 20px;
   top: 20px;
   z-index: 10;
+  cursor: pointer; /* Added for better UX */
 }
+
 .nav-link span {
   width: 20px;
   height: 2px;
   margin: auto;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
+
 .nav-link:before,
 .nav-link:after {
   content: "";
   width: 20px;
   height: 2px;
   margin: auto;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
   position: absolute;
   left: 0;
   right: 0;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  transition: all 0.1s ease-out;
 }
+
 .nav-link:before {
-  top: 16px;
+  top: 12px; /* Adjusted for better spacing */
   bottom: 0;
 }
+
 .nav-link:after {
   top: 0;
-  bottom: 16px;
+  bottom: 12px; /* Adjusted for better spacing */
+}
+
+/* Styles for the open state (X shape) */
+.nav-link.open span {
+  opacity: 0; /* Hide the middle bar */
+}
+
+.nav-link.open:before {
+  transform: rotate(45deg);
+  top: 0; /* Center the bar */
+  bottom: 0;
+}
+
+.nav-link.open:after {
+  transform: rotate(-45deg);
+  top: 0; /* Center the bar */
+  bottom: 0;
 }
 .nav2-search {
   padding: 10px !important;
@@ -536,11 +552,11 @@ body #arrow {
     padding: 5px 5px 0 5px;
     display: block;
     color: #000;
-    font-size: clamp(10px, 12px,15px);
+    font-size: clamp(10px, 12px, 15px);
     font-weight: 400;
-  }}
+  }
+}
 @media screen and (max-width: 750px) {
- 
   body #arrow {
     display: none !important;
   }
@@ -575,6 +591,9 @@ body #arrow {
   }
   .logo2 {
     display: none;
+  }
+  .nav-link {
+    display: block;
   }
   .all_title {
     font-size: 23px;

@@ -175,12 +175,16 @@ li.mm-vertical.mm-opened > .mm-panel {
   display: block;
 }
 
-.mm-listview,
-.mm-listview > li {
+.mm-listview {
   list-style: none;
-  display: block;
+  display: none;
   padding: 0;
   margin: 0;
+  transition: display 0.9s ease;
+}
+
+.mm-listview.active {
+  display: block;
 }
 
 .mm-listview {
@@ -208,16 +212,16 @@ li.mm-vertical.mm-opened > .mm-panel {
   overflow: hidden;
   color: inherit;
   display: block;
-  padding: 10px 10px 10px 20px;
+  padding: 25px;
   margin: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-  color: #fff;
+  color: #000;
 }
 .mm-listview > li > a:hover {
-  background-color: #000;
+  background-color: #fff;
   color: #0ab6e2;
 }
 .mm-listview > li.language {

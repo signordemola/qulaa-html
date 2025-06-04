@@ -16,3 +16,13 @@ const animateScrollToTop = (duration = 2500) => {
 
   requestAnimationFrame(scrollStep);
 };
+
+const nav = document.querySelector(".mm-listview");
+const hamburger = document.querySelector(".nav-link");
+
+hamburger.addEventListener("click", () => {
+  nav.classList.toggle("active");
+  hamburger.classList.toggle('open');
+  console.log("clicked");
+  console.log(nav);
+});
