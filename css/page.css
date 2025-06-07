@@ -159,7 +159,7 @@
 }
 .table002 th,
 .table002 td {
-  color: #cbcbcb;
+  color: #1d1d1d;
 }
 .table002 th {
   padding: 10px 0 5px 15px;
@@ -206,7 +206,7 @@
 }
 .f00 {
   height: 26px;
-  border: none;
+  border: 1px solid #1d1d1d;
   background: #f3f3f3;
   vertical-align: middle;
   -webkit-appearance: none;

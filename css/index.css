@@ -84,7 +84,7 @@
   color: #fff;
 }
 .callbacks li p span.caption_warp span.caption_title a:hover {
-  color: gray;
+  color: #ff0;
 }
 .callbacks li p span.caption_warp span.caption_text {
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 1) /*,-1px -1px 0 rgba(0,0,0,0.3)*/;
@@ -98,7 +98,7 @@
   color: #fff;
 }
 .callbacks li p span.caption_warp span.caption_text a:hover {
-  color: gray;
+  color: #ff0;
 }
 .callbacks_nav {
   position: absolute;
@@ -226,6 +226,7 @@
 @media only screen and (min-width: 1px) and (max-width: 1439px) {
   .banner_bg {
     height: auto;
+    margin-top: 6.4rem;
   }
   .banner {
     width: 100%;
@@ -241,16 +242,17 @@
     height: 100%;
   }
 }
-
 /* Hot Product */
 .caroufredsel_wrapper {
   overflow: hidden;
   width: 944px;
+  max-width: 90vw; /* Prevent overflow */
   height: 370px;
   position: relative;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  box-sizing: border-box;
 }
 
 #bxslider02 {
@@ -262,7 +264,7 @@
 }
 
 .hot_list {
-  width: calc(33.33% - 14px); /* ≈300.67px for 944px container */
+  width: calc(33.33% - 14px); /* ≈300.67px for 944px */
   margin: 0 7px;
   text-align: center;
   padding-top: 40px;
@@ -277,8 +279,8 @@
 .hot_list a img {
   width: 100%;
   max-width: 215px;
-  margin: 0 0 20px 0;
-  display: inline-block;
+  margin: 0 auto 20px; /* Center image */
+  display: block;
   box-sizing: border-box;
 }
 
@@ -303,7 +305,7 @@
 }
 
 .hot_list p.hot_Title a:hover {
-  color: gray;
+  color: #ff0;
   text-decoration: underline;
 }
 
@@ -316,6 +318,56 @@
 #next02,
 #prev02 {
   display: none;
+}
+
+/* Screens ≤1088px */
+@media (max-width: 1088px) {
+  .caroufredsel_wrapper {
+    width: 90vw;
+    height: 350px;
+    padding: 1.5rem;
+  }
+
+  #bxslider02 {
+    width: calc(7 * ((90vw - 3rem) / 2 + 14px)); /* 7 slides * (50% + margins) */
+  }
+
+  .hot_list {
+    width: calc(50% - 14px); /* 2 slides */
+    margin: 0 7px;
+    padding-top: 30px;
+  }
+
+  .hot_list a img {
+    max-width: 180px;
+  }
+}
+
+/* Screens ≤767px */
+@media (max-width: 767px) {
+  .caroufredsel_wrapper {
+    width: 100vw;
+    height: 320px;
+    padding: 1rem;
+  }
+
+  #bxslider02 {
+    width: calc(7 * ((100vw - 2rem) + 14px)); /* 7 slides * (full width + margins) */
+  }
+
+  .hot_list {
+    width: calc(100% - 14px); /* 1 slide */
+    margin: 0 7px;
+    padding-top: 20px;
+  }
+
+  .hot_list a img {
+    max-width: 150px;
+  }
+
+  .hot_list p.hot_Con {
+    max-height: 60px;
+  }
 }
 
 /*FAQ*/
@@ -390,7 +442,7 @@
   display: block;
 }
 .news_list p.news_title a:hover {
-  color: gray;
+  color: #ff0;
 }
 .news_list p.news_date {
   color: #414141;
