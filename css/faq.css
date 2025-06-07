@@ -40,13 +40,14 @@
   color: #252525;
 }
 .faq_title a:hover {
-  color: #0ab6e2;
+  color: #a9c426;
   text-decoration: underline;
 }
 .faq_l {
   width: 49%;
   float: left;
-  background: url(../assets/images/faq_imgBG.gif) no-repeat center center #eaeaea;
+  background: url(../assets/images/faq_imgBG.gif) no-repeat center center
+    #eaeaea;
 }
 .faq_l .faq_img {
   width: 100%;

@@ -30,7 +30,7 @@
   height: 23px;
   cursor: pointer;
   padding: 5px 0 0 28px;
-  background: url(../images/icon012.gif) no-repeat 6px 7px #0ab6e2;
+  background: url(../images/icon012.gif) no-repeat 6px 7px #a9c426;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -90,7 +90,7 @@
   max-width: 700px;
   margin: 0 auto 20px auto;
   text-align: center;
-  color: #ff0048;
+  color: gray048;
   font-size: 20px;
   font-weight: bold;
 }

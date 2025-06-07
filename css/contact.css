@@ -14,7 +14,7 @@
   width: 100%;
   background: url(../assets/images/icon008.gif) no-repeat right 9px;
   font-size: 20px;
-  color: #00f6ff;
+  color: #a9c427;
   text-align: left;
 }
 
@@ -119,7 +119,7 @@
   color: #454545;
 }
 .global_list li a:hover {
-  color: #0ab6e2;
+  color: #a9c426;
 }
 
 @media screen and (max-width: 1440px) {

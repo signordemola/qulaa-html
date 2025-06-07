@@ -10,7 +10,7 @@
 .map_title {
   margin-bottom: 10px;
   padding: 3px 13px;
-  background: #0ab6e2;
+  background: #a9c426;
 }
 .map_title h5 {
   font-size: 18px;
@@ -26,7 +26,7 @@
   color: #252525;
 }
 .sitemap_list a:hover {
-  color: #0ab6e2;
+  color: #a9c426;
   text-decoration: underline;
 }
 

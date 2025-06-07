@@ -127,7 +127,7 @@
 }
 .type_nav li a.cate_on,
 .type_nav li a:hover {
-  background: #0ab6e2;
+  background: #c03;
   color: #fff;
 }
 
@@ -230,7 +230,7 @@
 .btn001 {
   width: 70px;
   height: 26px;
-  background: #0ab6e2;
+  background: #c03;
   color: #fff;
   border: 0;
   text-align: center;
@@ -247,7 +247,7 @@
   width: 105px;
   height: 30px;
   margin: 0 5px;
-  background: #0ab6e2;
+  background: #c03;
   border: 0;
   color: #fff;
   text-align: center;

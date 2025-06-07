@@ -78,7 +78,7 @@
   text-align: center;
 }
 .pro_title a:hover {
-  background: #0ab6e2;
+  background: #a9c426;
   color: #fff;
 }
 
@@ -248,7 +248,7 @@
   font-weight: bold;
 }
 .pro_nav li a:hover {
-  color: #0ab6e2;
+  color: #a9c426;
 }
 .f-nav {
   z-index: 9999;
@@ -343,7 +343,7 @@
   max-width: 700px;
   margin: 0 auto 20px auto;
   text-align: center;
-  color: #ff0048;
+  color: gray048;
   font-size: 20px;
   font-weight: bold;
 }
