@@ -185,6 +185,7 @@
                         type="text"
                         id="name"
                         class="f00 f02"
+                        required
                       />
                     </td>
                     <td>
@@ -193,6 +194,7 @@
                         type="text"
                         id="company"
                         class="f00 f02"
+                        required
                       />
                     </td>
                   </tr>
@@ -208,8 +210,9 @@
                       <input
                         name="mail"
                         type="text"
-                        id="mail"
+                        id="email"
                         class="f00 f02"
+                        required
                       />
                     </td>
                   </tr>
@@ -238,26 +241,18 @@
                     <td colspan="2">
                       <textarea
                         name="bodys"
-                        id="bodys"
+                        id="inquiry"
                         cols=""
                         rows=""
                         class="f00 f03"
+                        required
                       ></textarea>
                     </td>
                   </tr>
-
-                
                 </tbody>
               </table>
               <div class="read_more" style="margin: 30px 0">
-                
-                <input
-                  name="submit"
-                  type="submit"
-                  id="submit"
-                  value="Send"
-                  class="btn002"
-                />
+                <button type="submit" class="btn002">Submit</button>
               </div>
             </form>
           </div>
@@ -2670,7 +2665,6 @@
       </div>
       <div class="footnav_bg">
         <div class="footnav_con">
-     
           <ul class="foot_nav">
             <li typeof="v:menu">
               <a href="index.html" title="Home" rel="v:url" property="v:title"
@@ -2781,5 +2775,40 @@
         </div>
       </div>
     </div>
+
+    <script>
+      document
+        .getElementById("form1")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent default form submission
+
+          // Get form data
+          const name = document.getElementById("name").value;
+          const company = document.getElementById("company").value;
+          const tel = document.getElementById("tel").value;
+          const email = document.getElementById("email").value;
+          const about = document.getElementById("about").value;
+          const inquiry = document.getElementById("inquiry").value;
+
+          // Create email body
+          const body = `Name: ${name}%0D%0ACompany: ${company}%0D%0ATelephone: ${tel}%0D%0AEmail: ${email}%0D%0AHow You Heard About Us: ${
+            about || "Not specified"
+          }%0D%0AInquiry: ${inquiry}`;
+
+          // Create mailto link
+          const mailtoLink = `mailto:xinai.leunghr@qulaaengineering.com?subject=New%20Form%20Submission&body=${encodeURIComponent(
+            body
+          )}`;
+
+          // Open email client
+          window.location.href = mailtoLink;
+
+          // Reset form and notify user
+          document.getElementById("form1").reset();
+          alert(
+            'Your email client will open. Please click "Send" to submit the form.'
+          );
+        });
+    </script>
   </body>
 </html>
