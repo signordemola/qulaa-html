@@ -157,7 +157,7 @@
 .banner_bg .banner_nav {
   width: 100%;
   height: 82px;
-  background: url(../images/Bnav_bg.png) repeat-x;
+  background: url(../images/Bnav_bg.webp) repeat-x;
   position: absolute;
   z-index: 5;
   bottom: 0;
@@ -197,31 +197,31 @@
   border-bottom-color: #d1142b;
 }
 .B_nav01:hover {
-  background: url(../assets/images/Bnav_bg01.png) repeat-x;
+  background: url(../assets/images/Bnav_bg01.webp) repeat-x;
 }
 .B_nav02 {
   border-bottom-color: #0077b6;
 }
 .B_nav02:hover {
-  background: url(../assets/images/Bnav_bg02.png) repeat-x;
+  background: url(../assets/images/Bnav_bg02.webp) repeat-x;
 }
 .B_nav03 {
   border-bottom-color: #1493ff;
 }
 .B_nav03:hover {
-  background: url(../assets/images/Bnav_bg03.png) repeat-x;
+  background: url(../assets/images/Bnav_bg03.webp) repeat-x;
 }
 .B_nav04 {
   border-bottom-color: #a438f2;
 }
 .B_nav04:hover {
-  background: url(../assets/images/Bnav_bg04.png) repeat-x;
+  background: url(../assets/images/Bnav_bg04.webp) repeat-x;
 }
 .B_nav05 {
   border-bottom-color: #ff9313;
 }
 .B_nav05:hover {
-  background: url(../assets/images/Bnav_bg05.png) repeat-x;
+  background: url(../assets/images/Bnav_bg05.webp) repeat-x;
 }
 @media only screen and (min-width: 1px) and (max-width: 1439px) {
   .banner_bg {
@@ -329,7 +329,9 @@
   }
 
   #bxslider02 {
-    width: calc(7 * ((90vw - 3rem) / 2 + 14px)); /* 7 slides * (50% + margins) */
+    width: calc(
+      7 * ((90vw - 3rem) / 2 + 14px)
+    ); /* 7 slides * (50% + margins) */
   }
 
   .hot_list {
@@ -352,7 +354,9 @@
   }
 
   #bxslider02 {
-    width: calc(7 * ((100vw - 2rem) + 14px)); /* 7 slides * (full width + margins) */
+    width: calc(
+      7 * ((100vw - 2rem) + 14px)
+    ); /* 7 slides * (full width + margins) */
   }
 
   .hot_list {
@@ -389,7 +393,7 @@
   width: 32px;
   height: 45px;
   float: left;
-  background: url(../assets/images/Q_icon.png) no-repeat;
+  background: url(../assets/images/Q_icon.webp) no-repeat;
   border-right: #224495 solid 1px;
 }
 .faq_word {

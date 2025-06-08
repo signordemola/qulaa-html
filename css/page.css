@@ -34,7 +34,7 @@
 .top_banner_area .top_banner_cover {
   width: 100%;
   height: 280px;
-  background: url(../assets/images/top_bnr_cover.png) no-repeat top center;
+  background: url(../assets/images/top_bnr_cover.webp) no-repeat top center;
   position: absolute;
   z-index: 5;
   top: 0;
@@ -83,7 +83,7 @@
 .top_banner_area .tag_bg .tag li,
 .show_bnr_bg .tag_bg .tag li {
   padding: 0 5px 0 15px;
-  background: url(../assets/images/icon006.png) no-repeat 0 6px;
+  background: url(../assets/images/icon006.webp) no-repeat 0 6px;
   display: inline;
   color: #fff;
   font-family: "Lato", "Oxygen", Verdana, sans-serif;

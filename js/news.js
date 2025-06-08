@@ -1,6 +1,6 @@
 let newsPosts = [
   {
-    imageSrc: "assets/images/METAV-2020-varitron.jpg",
+    imageSrc: "assets/images/METAV-2020-varitron.webp",
     imageAlt: "METAV-Düsseldorf-2020-varitron",
     title: "Meet Vatidel in METAV Düsseldorf 2020",
     date: "2/3/2020",
@@ -39,7 +39,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/METAV-2020-varitron.jpg",
+        src: "assets/images/METAV-2020-varitron.webp",
         alt: "METAV Düsseldorf 2020",
         width: 460,
         height: 306,
@@ -74,7 +74,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "assets/images/EMO-HANNOVER-2019-varitron.jpg",
+    imageSrc: "assets/images/EMO-HANNOVER-2019-varitron.webp",
     imageAlt: "varitron taiwan at EMO hannover 2019",
     title: "Meet Vatidel in EMO HANNOVER 2019",
     date: "10/28/2019",
@@ -113,7 +113,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/EMO-HANNOVER-2019-varitron.jpg",
+        src: "assets/images/EMO-HANNOVER-2019-varitron.webp",
         alt: "EMO Hannover 2019",
         width: 460,
         height: 306,
@@ -148,7 +148,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "assets/images/manfaucturing_indonesia_2019.jpg",
+    imageSrc: "assets/images/manfaucturing_indonesia_2019.webp",
     imageAlt: "manufacturing Indonesia 2019 Varitron",
     title: "Meet Vatidel in Manufacturing Indonesia 2019",
     date: "11/26/2019",
@@ -187,7 +187,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/manfaucturing_indonesia_2019.jpg",
+        src: "assets/images/manfaucturing_indonesia_2019.webp",
         alt: "Manufacturing Indonesia 2019",
         width: 460,
         height: 306,
@@ -222,7 +222,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "assets/images/AllPack-indonesia-varitron.png",
+    imageSrc: "assets/images/AllPack-indonesia-varitron.webp",
     imageAlt: "allpack,indonesia,gearmotor,gearbox,motor",
     title: "Meet Vatidel in ALLPACK Indonesia 2019",
     date: "10/1/2019",
@@ -261,7 +261,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/AllPack-indonesia-varitron.png",
+        src: "assets/images/AllPack-indonesia-varitron.webp",
         alt: "ALLPACK Indonesia 2019",
         width: 460,
         height: 306,
@@ -296,7 +296,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "assets/images/2019-taipei-automation-varitron.jpg",
+    imageSrc: "assets/images/2019-taipei-automation-varitron.webp",
     imageAlt: "Taipei International Industrial Automation Exhibition 2019",
     title: "2019 Taipei International Industrial Automation Exhibition",
     date: "7/8/2019",
@@ -335,7 +335,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/METAV-2020-varitron.jpg",
+        src: "assets/images/METAV-2020-varitron.webp",
         alt: "METAV Düsseldorf 2020",
         width: 460,
         height: 306,
@@ -370,7 +370,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "assets/images/VARITRON-2017-exhibition(1).jpg",
+    imageSrc: "assets/images/VARITRON-2017-exhibition(1).webp",
     imageAlt: "Taipei International Industrial Automation Exhibition",
     title: "2017 Taipei International Industrial Automation Exhibition",
     date: "7/25/2017",
@@ -409,7 +409,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/METAV-2020-varitron.jpg",
+        src: "assets/images/METAV-2020-varitron.webp",
         alt: "METAV Düsseldorf 2020",
         width: 460,
         height: 306,
@@ -444,7 +444,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "assets/images/gearmotor-mumbai-varitron.jpg",
+    imageSrc: "assets/images/gearmotor-mumbai-varitron.webp",
     imageAlt: "gearmotor-mumbai-varitron",
     title: "Meet Vatidel in AMTEX MUMBAI INDIA",
     date: "4/3/2017",
@@ -465,7 +465,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/gearmotor-mumbai-varitron.jpg",
+        src: "assets/images/gearmotor-mumbai-varitron.webp",
         alt: "gearmotor-mumbai-varitron",
         width: 380,
         height: 380,
@@ -473,7 +473,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "assets/images/Varitron-IE3-Premium-Efficiency-Motor.png",
+    imageSrc: "assets/images/Varitron-IE3-Premium-Efficiency-Motor.webp",
     imageAlt: "Varitron,IE3,Premium,Efficiency,Motors,cyclo,drive,cycloidal",
     title: "IE3 Premium Efficiency Cyclo Gear motors from Vatidel",
     date: "8/25/2015",
@@ -512,7 +512,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/METAV-2020-varitron.jpg",
+        src: "assets/images/METAV-2020-varitron.webp",
         alt: "METAV Düsseldorf 2020",
         width: 460,
         height: 306,
@@ -547,7 +547,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "assets/images/life_of_PI_varitron_reducer.jpg",
+    imageSrc: "assets/images/life_of_PI_varitron_reducer.webp",
     imageAlt: "life_of_pi_varitron_customized_reducer",
     title:
       "Vatidel, The Exclusive Speed reducer Supplier Of Oscar Nominated Movie “Life Of Pi”",
@@ -587,7 +587,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/METAV-2020-varitron.jpg",
+        src: "assets/images/METAV-2020-varitron.webp",
         alt: "METAV Düsseldorf 2020",
         width: 460,
         height: 306,
@@ -622,7 +622,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "assets/images/TMTS2018-cycloidal.jpg",
+    imageSrc: "assets/images/TMTS2018-cycloidal.webp",
     imageAlt: "TMTS2018 Varitron",
     title: "Taiwan International Machine Tool Show (TMTS)",
     date: "11/1/2018",
@@ -661,7 +661,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/METAV-2020-varitron.jpg",
+        src: "assets/images/METAV-2020-varitron.webp",
         alt: "METAV Düsseldorf 2020",
         width: 460,
         height: 306,
@@ -697,7 +697,7 @@ let newsPosts = [
   },
   {
     imageSrc:
-      "assets/images/Magnetic-Filtration-System-gearmotor-Gearbox-Design.png",
+      "assets/images/Magnetic-Filtration-System-gearmotor-Gearbox-Design.webp",
     imageAlt: "Magnetic Filtration System in Vatidel Gearbox Gearmotor Design",
     title: "Magnetic Filtration System in Vatidel Gearbox Gearmotor Design",
     date: "3/1/2016",
@@ -736,7 +736,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/METAV-2020-varitron.jpg",
+        src: "assets/images/METAV-2020-varitron.webp",
         alt: "METAV Düsseldorf 2020",
         width: 460,
         height: 306,
@@ -771,7 +771,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "assets/images/sunkist-chemical-machinery.jpg",
+    imageSrc: "assets/images/sunkist-chemical-machinery.webp",
     imageAlt:
       "sunkist, chemical, machinery, foam, Foam Cutting Machine, Rebonding Machine,Convoluter, turnkey, gear motor",
     title:
@@ -812,7 +812,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/METAV-2020-varitron.jpg",
+        src: "assets/images/METAV-2020-varitron.webp",
         alt: "METAV Düsseldorf 2020",
         width: 460,
         height: 306,
@@ -847,7 +847,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "assets/images/alaska.png",
+    imageSrc: "assets/images/alaska.webp",
     imageAlt: "Alaska Gearbox for cold weather",
     title:
       "Bering Strait and Varitron, Customized Gearbox Speed Reducer Challenges Brutal Cold",
@@ -887,7 +887,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/METAV-2020-varitron.jpg",
+        src: "assets/images/METAV-2020-varitron.webp",
         alt: "METAV Düsseldorf 2020",
         width: 460,
         height: 306,
@@ -922,7 +922,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "assets/images/airport2.png",
+    imageSrc: "assets/images/airport2.webp",
     imageAlt: "cyclo gear motor use on airport air bridge",
     title:
       "Taoyuan International Airport’s Friend, Vatidel, The Manufacturer Of Speed Reducer",
@@ -962,7 +962,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/METAV-2020-varitron.jpg",
+        src: "assets/images/METAV-2020-varitron.webp",
         alt: "METAV Düsseldorf 2020",
         width: 460,
         height: 306,
@@ -997,7 +997,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "assets/images/environmen.png",
+    imageSrc: "assets/images/environmen.webp",
     imageAlt: "",
     title:
       "Environmental Friendly Varitron：Web servers with green wind energy",
@@ -1037,7 +1037,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/METAV-2020-varitron.jpg",
+        src: "assets/images/METAV-2020-varitron.webp",
         alt: "METAV Düsseldorf 2020",
         width: 460,
         height: 306,
@@ -1072,7 +1072,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "assets/images/pond.png",
+    imageSrc: "assets/images/pond.webp",
     imageAlt: "water purification plant varitron cyclo gearbox",
     title:
       "Water-Purification Plant and Varitron, Popularization of Cyclo Gearbox",
@@ -1112,7 +1112,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/METAV-2020-varitron.jpg",
+        src: "assets/images/METAV-2020-varitron.webp",
         alt: "METAV Düsseldorf 2020",
         width: 460,
         height: 306,
@@ -1147,7 +1147,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "images/news_img01.jpg",
+    imageSrc: "images/news_img01.webp",
     imageAlt: "Industry 4.0",
     title: "Industry 4.0. What is it all about?",
     date: "4/20/2018",
@@ -1186,7 +1186,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/METAV-2020-varitron.jpg",
+        src: "assets/images/METAV-2020-varitron.webp",
         alt: "METAV Düsseldorf 2020",
         width: 460,
         height: 306,
@@ -1221,7 +1221,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "assets/images/amtex-delhi-india-varitron.jpg",
+    imageSrc: "assets/images/amtex-delhi-india-varitron.webp",
     imageAlt: "amtex-delhi-india-varitron",
     title: "Meet Vatidel in Delhi India, AMTEX 2018",
     date: "6/21/2018",
@@ -1260,7 +1260,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/METAV-2020-varitron.jpg",
+        src: "assets/images/METAV-2020-varitron.webp",
         alt: "METAV Düsseldorf 2020",
         width: 460,
         height: 306,
@@ -1295,7 +1295,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "assets/images/Varitron-Cyclo-gear-exhibition.jpg",
+    imageSrc: "assets/images/Varitron-Cyclo-gear-exhibition.webp",
     imageAlt: "Varitron-jakarta-cyclo-drive",
     title: "Meet Vatidel in Jakarta Indonesia 2017",
     date: "12/1/2017",
@@ -1334,7 +1334,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/METAV-2020-varitron.jpg",
+        src: "assets/images/METAV-2020-varitron.webp",
         alt: "METAV Düsseldorf 2020",
         width: 460,
         height: 306,
@@ -1369,7 +1369,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "assets/images/globalwarranty1.png",
+    imageSrc: "assets/images/globalwarranty1.webp",
     imageAlt: "varitron_Global_Warranty_Gearbox_gear_box_cyclo_drive",
     title: "VARITRON: Global Warranty of Gearbox",
     date: "5/14/2015",
@@ -1408,7 +1408,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/METAV-2020-varitron.jpg",
+        src: "assets/images/METAV-2020-varitron.webp",
         alt: "METAV Düsseldorf 2020",
         width: 460,
         height: 306,
@@ -1443,7 +1443,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "assets/images/bitcoin-accepted-for-gearbox.png",
+    imageSrc: "assets/images/bitcoin-accepted-for-gearbox.webp",
     imageAlt: "Buying Gearmotor with BITCOIN",
     title: "Buying Gearmotor with BITCOIN",
     date: "7/25/2017",
@@ -1482,7 +1482,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/METAV-2020-varitron.jpg",
+        src: "assets/images/METAV-2020-varitron.webp",
         alt: "METAV Düsseldorf 2020",
         width: 460,
         height: 306,
@@ -1517,7 +1517,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "images/news_img01.jpg",
+    imageSrc: "images/news_img01.webp",
     imageAlt: "",
     title: "HOUSIN CO., LTD is now In Vatidel Group",
     date: "5/28/2018",
@@ -1556,7 +1556,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/METAV-2020-varitron.jpg",
+        src: "assets/images/METAV-2020-varitron.webp",
         alt: "METAV Düsseldorf 2020",
         width: 460,
         height: 306,
@@ -1591,7 +1591,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "images/news_img01.jpg",
+    imageSrc: "images/news_img01.webp",
     imageAlt: "",
     title: "WAN SIN CO.,LTD is now In Vatidel Group",
     date: "5/8/2018",
@@ -1630,7 +1630,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/METAV-2020-varitron.jpg",
+        src: "assets/images/METAV-2020-varitron.webp",
         alt: "METAV Düsseldorf 2020",
         width: 460,
         height: 306,
@@ -1665,7 +1665,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "assets/images/Varitron-DF-Precision-Planetary-Gearbox.png",
+    imageSrc: "assets/images/Varitron-DF-Precision-Planetary-Gearbox.webp",
     imageAlt: "",
     title: "Limit Lost Motion with Vatidel's DF Flange Planetary Gearbox",
     date: "7/25/2017",
@@ -1704,7 +1704,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/METAV-2020-varitron.jpg",
+        src: "assets/images/METAV-2020-varitron.webp",
         alt: "METAV Düsseldorf 2020",
         width: 460,
         height: 306,
@@ -1739,7 +1739,7 @@ let newsPosts = [
     },
   },
   {
-    imageSrc: "assets/images/FULTECH%20CHIAN%20SPEED%20VARIATOR.jpg",
+    imageSrc: "assets/images/FULTECH%20CHIAN%20SPEED%20VARIATOR.webp",
     imageAlt: "FULTECH CHAIN SPEED VARIATOR changer",
     title: "FULTECH CHAIN SPEED VARIATOR is now In Vatidel Group",
     date: "6/21/2017",
@@ -1778,7 +1778,7 @@ let newsPosts = [
         },
       ],
       image: {
-        src: "assets/images/METAV-2020-varitron.jpg",
+        src: "assets/images/METAV-2020-varitron.webp",
         alt: "METAV Düsseldorf 2020",
         width: 460,
         height: 306,
