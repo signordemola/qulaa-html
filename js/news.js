@@ -1825,7 +1825,7 @@ function generateNewsPostHTML(post) {
       <div class="news_list">
           <div class="news_img">
               <a href="${readMoreLink}" title="${post.title}" rel="v:url" property="v:title">
-                  <img src="${post.imageSrc}" alt="${post.imageAlt}" title="${post.title}">
+                  <img loading="lazy"  src="${post.imageSrc}" alt="${post.imageAlt}" title="${post.title}">
               </a>
           </div>
           <div class="news_text" typeof="v:News">
@@ -1961,7 +1961,7 @@ function renderPostDetails(post) {
   // Generate image
   const imageHTML = `
       <p style="text-align: center;">
-        <img src="${post.content.image.src}" alt="${post.content.image.alt}" width="${post.content.image.width}" height="${post.content.image.height}">
+        <img loading="lazy"  src="${post.content.image.src}" alt="${post.content.image.alt}" width="${post.content.image.width}" height="${post.content.image.height}">
       </p>
     `;
 
