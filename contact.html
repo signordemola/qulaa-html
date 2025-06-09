@@ -176,7 +176,12 @@
             <div class="cont_title">
               <h4>Your Inquiry</h4>
             </div>
-            <form id="form1">
+            <form
+              id="form1"
+              action="mailto:sales@qulaaengineering.com"
+              method="post"
+              enctype="text/plain"
+            >
               <table class="table002" style="width: 100%">
                 <tbody>
                   <tr>
@@ -204,7 +209,7 @@
                     </td>
                   </tr>
                   <tr>
-                    <th>Telphone <span class="red">*</span></th>
+                    <th>Telephone <span class="red">*</span></th>
                     <th>E-mail <span class="red">*</span></th>
                   </tr>
                   <tr>
@@ -256,8 +261,16 @@
                   </tr>
                 </tbody>
               </table>
+              <input
+                type="hidden"
+                name="subject"
+                value="New Website Inquiry from Qulaa Engineering Contact Form"
+              />
+
               <div class="read_more" style="margin: 30px 0">
-                <button type="submit" class="btn002">Submit</button>
+                <button type="submit" class="btn002" id="submitBtn">
+                  Submit
+                </button>
               </div>
             </form>
           </div>
@@ -2866,40 +2879,5 @@
         </div>
       </div>
     </div>
-
-    <script>
-      document
-        .getElementById("form1")
-        .addEventListener("submit", function (event) {
-          event.preventDefault(); // Prevent default form submission
-
-          // Get form data
-          const name = document.getElementById("name").value;
-          const company = document.getElementById("company").value;
-          const tel = document.getElementById("tel").value;
-          const email = document.getElementById("email").value;
-          const about = document.getElementById("about").value;
-          const inquiry = document.getElementById("inquiry").value;
-
-          // Create email body
-          const body = `Name: ${name}%0D%0ACompany: ${company}%0D%0ATelephone: ${tel}%0D%0AEmail: ${email}%0D%0AHow You Heard About Us: ${
-            about || "Not specified"
-          }%0D%0AInquiry: ${inquiry}`;
-
-          // Create mailto link
-          const mailtoLink = `mailto:sales@qulaaengineering.com?subject=New%20Form%20Submission&body=${encodeURIComponent(
-            body
-          )}`;
-
-          // Open email client
-          window.location.href = mailtoLink;
-
-          // Reset form and notify user
-          document.getElementById("form1").reset();
-          alert(
-            'Your email client will open. Please click "Send" to submit the form.'
-          );
-        });
-    </script>
   </body>
 </html>
