@@ -20,6 +20,7 @@
 
     <!-- js -->
     <script src="./js/scrollToTop.js" defer></script>
+    <script src="./js/email.js" defer></script>
   </head>
   <body>
     <div id="mm-0" class="mm-page mm-slideout">
@@ -176,12 +177,9 @@
             <div class="cont_title">
               <h4>Your Inquiry</h4>
             </div>
-            <form
-              id="form1"
-              action="mailto:sales@qulaaengineering.com"
-              method="post"
-              enctype="text/plain"
-            >
+            <form id="form1">
+              <p>Please fill out the form below to get in touch with us.</p>
+
               <table class="table002" style="width: 100%">
                 <tbody>
                   <tr>
@@ -219,7 +217,7 @@
                     <td>
                       <input
                         name="mail"
-                        type="text"
+                        type="email"
                         id="email"
                         class="f00 f02"
                         required
@@ -252,8 +250,6 @@
                       <textarea
                         name="bodys"
                         id="inquiry"
-                        cols=""
-                        rows=""
                         class="f00 f03"
                         required
                       ></textarea>
@@ -261,17 +257,14 @@
                   </tr>
                 </tbody>
               </table>
-              <input
-                type="hidden"
-                name="subject"
-                value="New Website Inquiry from Qulaa Engineering Contact Form"
-              />
 
               <div class="read_more" style="margin: 30px 0">
                 <button type="submit" class="btn002" id="submitBtn">
                   Submit
                 </button>
               </div>
+
+              <div id="formMessage"></div>
             </form>
           </div>
 
